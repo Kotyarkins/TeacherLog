@@ -1,0 +1,28 @@
+.wrapper {
+   & > * > * {
+      margin: 10px;
+   }
+}
+.select {
+}
+.form-section {
+   border: 1px solid rgb(0, 0, 0);
+   border-radius: 20px;
+   &__title {
+      margin: 0 10px;
+      padding: 0 10px;
+      background-color: #fff;
+      display: inline-block;
+      transform: translateY(-11px);
+   }
+   &__row {
+      margin: 10px;
+   }
+}
+
+.input {
+}
+
+.radio {
+   display: block;
+}
